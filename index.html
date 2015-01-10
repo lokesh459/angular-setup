@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- <script src="scripts/angular.js"></script> -->
+	</head>
+	<body ng-controller="masterCtrl">
+		{{name}}
+		<ul>
+			<li ng-repeat="link in links">
+				<a ng-href="{{link.url}}" id="{{link.id}}">{{link.label}}</a>
+			</li>
+		</ul>		
+		<div ng-view=""></div>
+
+
+		<!-- scripts loading-->
+		<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+		<!--<script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>-->
+
+		 <script src="node_modules/requirejs/require.js" data-main="scripts/config.js"></script>
+	</body>
+</html>
