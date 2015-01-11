@@ -3,3 +3,4 @@ version : 1.0.0
 description : template folder structure
 
 1/4/2015	WIP setting up requirejs for all angular codes
+1/10/2015   Add ng route, pages and some sample navigation
