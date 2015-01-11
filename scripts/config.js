@@ -1,4 +1,4 @@
-var mod_path = "node_modules/"
+var mod_path = "../node_modules/"
 
 requirejs.config({
 	baseUrl : "../",

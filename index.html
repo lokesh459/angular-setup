@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html id="myApp">
 	<head>
 		<!-- <script src="scripts/angular.js"></script> -->
 	</head>
 	<body ng-controller="masterCtrl">
 		{{name}}
+		<span class="name" id="name">myName</span>
 		<ul>
 			<li ng-repeat="link in links">
 				<a ng-href="{{link.url}}" id="{{link.id}}">{{link.label}}</a>
