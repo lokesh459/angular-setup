@@ -23,4 +23,4 @@ exports.config = {
 
         // sign in before all tests
      }
-}
+};

@@ -1,4 +1,4 @@
-var mod_path = "../node_modules/"
+var mod_path = "../node_modules/";
 
 requirejs.config({
 	baseUrl : "../",
@@ -15,11 +15,10 @@ requirejs.config({
 	shim : {
 		angular : {	
 			exports : 'angular'
-		}
-		,
+		},
 		"angular-route" : {	deps : ["angular"], exports : "angular-route"},
 		"angular-resource" : {	deps : ["angular"], exports : "angular-resource"}		
 	}
-})
+});
 //run app
 requirejs(["app"]);

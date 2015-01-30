@@ -13,6 +13,6 @@ define(["angular"],function(angular){
 				label : 'sub Page',
 				id : 'sub'
 			}
-		]
+		];
 	}]);
 });

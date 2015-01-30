@@ -1,7 +1,5 @@
-'use strict';
-
 requirejs(["angular","angular-route","scripts/controllers","scripts/services","scripts/directives","scripts/filters"],function(angular){
-	
+	'use strict';	
 	var myApp = angular.module("myApp",["ngRoute","controllers","directives","services","filters"]);
 
 	myApp.config(['$routeProvider','$locationProvider','$httpProvider',function($routeProvider,$locationProvider,$httpProvider){
