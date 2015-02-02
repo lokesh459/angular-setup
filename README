@@ -5,3 +5,4 @@ description : template folder structure
 1/4/2015	WIP setting up requirejs for all angular codes
 1/10/2015   Add ng route, pages and some sample navigation
 1/29/2015   Add grunt jshint/sass/watch
+2/1/2015	Add grunt copy/concat
